@@ -5,7 +5,8 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
 
-from scrapy import Item，Field
+import scrapy
+from scrapy import Item,Field
 
 #定义job爬虫的数据结构
 class JobItem(scrapy.Item):
